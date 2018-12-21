@@ -1,5 +1,6 @@
 /* This sketch allows users to manipulate LEDs such that they flash sequentially from one to the other*/
 
+
 byte ledPin[]= {0,1,2,3,4,5,6,7,8};       //initialize the leds in pins 0-8 in an array
 int direction = 1;                          // increment of 1. This allows the code to cycle through every led
 int currentLED = 0;                         // a counter that starts from pin 0
